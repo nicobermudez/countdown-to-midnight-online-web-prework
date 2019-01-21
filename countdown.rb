@@ -1,4 +1,17 @@
 #write your code here
 
-def countdown
+def countdown(int)
+  until int == 0
+    puts "#{int} SECOND(S)!"
+    int-=1
+  end
+  return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(int)
+  until int == 0 
+    sleep int
+    int -=1 
+  end
+end
+ 
