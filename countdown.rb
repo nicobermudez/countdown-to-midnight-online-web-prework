@@ -3,5 +3,7 @@
 def countdown(int)
   until int == 0
     puts "#{int} SECOND(S)!"
-    int-=1 
+    int--
+  end
+  
 end
